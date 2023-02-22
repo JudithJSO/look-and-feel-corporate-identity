@@ -1,0 +1,137 @@
+@media (min-width: 801px) {
+  .secondary-nav {
+    display: none;
+  }
+}
+html,
+body {
+  height: 100%;
+  display: flexbox;
+  width: 75%;
+}
+html {
+  display: table;
+  margin: auto;
+}
+header {
+  position: absolute;
+  top: 0;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+  top: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(222, 222, 222, 1) 26%,
+    rgba(222, 222, 222, 1) 63%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+/*basic stuffs - fonts */
+* {
+  font-family: "Avenir", "Arial", sans-serif;
+}
+h2 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+}
+/* Menu */
+
+.main-nav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgb(207, 21, 21);
+  background: radial-gradient(
+    circle,
+    rgba(207, 21, 21, 1) 79%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.main-nav_primary {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+.main-nav_secondary {
+  list-style: none;
+}
+
+/* form */
+.opties {
+  position: absolute;
+  right: 1;
+}
+.reserverings-form {
+  float: right;
+}
+.reserverings-form > fieldset {
+  margin-left: 16rem;
+  padding-bottom: 30px;
+  background: rgb(251, 54, 54);
+  background: radial-gradient(
+    circle,
+    rgba(251, 54, 54, 1) 31%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  color: white;
+  border: none;
+  height: 18rem;
+  width: 25rem;
+  z-index: 2px;
+  float: right;
+}
+label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.submit-button {
+  position: absolute;
+  bottom: 10;
+}
+
+/*Locationes*/
+.locaties {
+  position: absolute;
+  top: 155px;
+  width: 100%;
+}
+.locaties > h4 {
+  position: absolute;
+  left: 40px;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+  position: absolute;
+}
+li {
+  vertical-align: auto;
+  float: left;
+  text-align: left;
+}
+/*footer*/
+footer {
+  background-color: red;
+}

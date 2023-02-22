@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/10fdd62b91.css"
+      crossorigin="anonymous" />
+
+    <title>Mijn Oba - Studenten</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/images/logo-oba.png" height="100px" width="150px" />
+      </div>
+    </header>
+    <div class="menu-bar">
+      <nav class="main-nav">
+        <ul class="main-nav_primary">
+          <li class="menu-item-1">Studeren</li>
+          <li class="menu-item-2">Ebooks</li>
+          <li class="menu-item-3">Collectie</li>
+          <li class="menu-item-4">Reserveren</li>
+          <li role="none" class="menu-item-more-items"></li>
+        </ul>
+      </nav>
+    </div>
+    <i class="fa-solid fa-user"></i>
+
+    <div class="locaties">
+      <h4>Locaties</h4>
+      <br />
+      <ul>
+        <li>
+          <h6>OBA Banne</h6>
+
+          Bezaanjachtplein 249 1034CR Amsterdam<br />Telefoon+31 (0)205230900<br />E-mailbanne@oba.nl
+          <br />geopend ma tm/ vrij van 9.30 tot 17.30
+        </li>
+        <br />
+        <li>
+          <h6>OBA Bijlmerplein</h6>
+          Bijlmerplein 393 1102DK Amsterdam<br />Telefoon+31 (0)205230900<br />E-mailbijlmerplein@oba.nl
+        </li>
+        <br />
+        <li>
+          <h6>OBA Bos en Lommer</h6>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="reserverings-form">
+      <fieldset>
+        <form>
+          <label for="locaties">Locatie</label><br />
+          <input name="locaties" type="text" autocomplete="street-address" />
+          <br /><label for="date">Datum</label><br />
+          <input
+            name="datum"
+            type="date"
+            id="start"
+            name="trip-start"
+            value="2023-02-08"
+            min="2023-01-01"
+            max="2023-12-31" /><br />
+          <label for="tijd">Tijd</label><br />
+          <div class="timeslot">Ochtend (08:00-12:00)</div>
+          <div class="timeslot">Middag (12:00-17:00)</div>
+          <div class="timeslot">Avond (18:00-22:00)</div>
+          <div class="opties">
+            <label for="extra">Extra</label><br />
+            <input name="extra" type="checkbox" id="Wifi" name="Wifi" />
+            <label for="Wifi">Wifi</label><br />
+            <input name="extra" type="checkbox" id="Charging" name="Charging" />
+            <label for="Charging">Oplaadstation</label> <br />
+            <input
+              name="extra"
+              type="checkbox"
+              id="Wheelchair"
+              name="Wheelchair" />
+            <label for="Wheelchair">Rolstoeltoegankelijk</label>
+          </div>
+          <div class="submit-button">
+            <input type="submit" value="Gegevens invoer" />
+          </div>
+        </form>
+      </fieldset>
+    </div>
+    <footer></footer>
+  </body>
+</html>
+<script type="text/javascript" src="scripts\script.js"></script>
